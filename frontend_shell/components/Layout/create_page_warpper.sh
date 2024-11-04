@@ -1,8 +1,6 @@
 #!/bin/bash
 mkdir -p frontend/src/components/Layout
 
-echo "Creating PageWrapper file..."
-
 # Create useSnackbar.tsx file with content
 cat <<EOL > frontend/src/components/Layout/PageWrapper.tsx
 import React from 'react';

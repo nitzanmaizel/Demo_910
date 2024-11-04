@@ -1,8 +1,6 @@
 #!/bin/bash
 mkdir -p frontend/src/components/Layout
 
-echo "Creating Footer file..."
-
 # Create useSnackbar.tsx file with content
 cat <<EOL > frontend/src/components/Layout/Footer.tsx
 import { Box } from '@mui/material';

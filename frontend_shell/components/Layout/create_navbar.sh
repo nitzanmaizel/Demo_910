@@ -1,8 +1,6 @@
 #!/bin/bash
 mkdir -p frontend/src/components/Layout
 
-echo "Creating Navbar file..."
-
 # Create useSnackbar.tsx file with content
 cat <<EOL > frontend/src/components/Layout/Navbar.tsx
 import React from 'react';

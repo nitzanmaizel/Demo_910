@@ -1,8 +1,6 @@
 #!/bin/bash
 mkdir -p frontend/src/components/Layout
 
-echo "Creating Sidebar file..."
-
 # Create useSnackbar.tsx file with content
 cat <<EOL > frontend/src/components/Layout/Sidebar.tsx
 import * as React from 'react';
