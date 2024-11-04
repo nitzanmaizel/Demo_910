@@ -1,8 +1,6 @@
 #!/bin/bash
 mkdir -p frontend/src/hooks
 
-echo "Creating useSnackbar file..."
-
 # Create useSnackbar.tsx file with content
 cat <<EOL > frontend/src/hooks/useSnackbar.tsx
 import { useContext } from "react";

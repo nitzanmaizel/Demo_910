@@ -1,8 +1,6 @@
 #!/bin/bash
 mkdir -p frontend/src/context
 
-echo "Creating UserContext file..."
-
 # Create UserContext.tsx file with content
 cat <<EOL > frontend/src/context/UserContext.tsx
 import React, { createContext, useState, ReactNode, useCallback, useEffect} from "react";

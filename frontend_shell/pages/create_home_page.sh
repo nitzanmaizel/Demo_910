@@ -1,8 +1,6 @@
 #!/bin/bash
 mkdir -p frontend/src/pages
 
-echo "Creating HomePage.tsx file..."
-
 # Create HomePage.tsx file with content
 cat <<EOL > frontend/src/pages/HomePage.tsx
 import React from "react";

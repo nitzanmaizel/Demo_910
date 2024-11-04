@@ -1,8 +1,6 @@
 #!/bin/bash
 mkdir -p frontend/src/services
 
-echo "Creating apiServices file..."
-
 # Create apiServices.tsx file with content
 cat <<EOL > frontend/src/services/apiServices.tsx
 import { getAccessToken } from '../tokenManager';

@@ -1,8 +1,6 @@
 #!/bin/bash
 mkdir -p frontend/src
 
-echo "Creating tokenManager file..."
-
 # Create useSnackbar.tsx file with content
 cat <<EOL > frontend/src/tokenManager.ts
 let accessToken: string | null = localStorage.getItem('jwtToken');

@@ -1,8 +1,6 @@
 #!/bin/bash
 mkdir -p frontend/src/types
 
-echo "Creating UserTypes file..."
-
 # Create UserTypes.tsx file with content
 cat <<EOL > frontend/src/types/UserTypes.ts
 export type UserRole = "user" | "admin";

@@ -1,8 +1,6 @@
 #!/bin/bash
 mkdir -p frontend/src/hooks
 
-echo "Creating useUser file..."
-
 # Create useUser.tsx file with content
 cat <<EOL > frontend/src/hooks/useUser.tsx
 import { useContext } from 'react';

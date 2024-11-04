@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { Box } from '@mui/material';
 
 import PageWrapper from '../components/Layout/PageWrapper';
@@ -8,17 +8,9 @@ const HomePage: React.FC = () => {
   const { userInfo } = useUser();
 
   return (
-    <PageWrapper title='Home Page'>
+    <PageWrapper>
       <Box>
-        <h1>Welcome, {userInfo?.fullName}!</h1>
-        <ul>
-          {userInfo &&
-            Object.entries(userInfo).map(([key, value]) => (
-              <li key={key}>
-                <strong>{key}:</strong> {value}
-              </li>
-            ))}
-        </ul>
+        <h1>Welcome, {userInfo?.name}!</h1>
       </Box>
     </PageWrapper>
   );

@@ -2,8 +2,6 @@
 # Ensure frontend config directory exists
 mkdir -p frontend/src
 
-echo "Creating index css file..."
-
 # Create index.css file with content
 cat <<EOL > frontend/src/index.css
 html,

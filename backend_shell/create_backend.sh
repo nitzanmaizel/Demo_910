@@ -19,5 +19,4 @@ source "$SCRIPT_DIR/backend_shell/scripts/create_admin_user.sh"
 source "$SCRIPT_DIR/backend_shell/create_server_file.sh"
 source "$SCRIPT_DIR/backend_shell/create_root_files.sh"
 
-colored_echo "Backend - Installing dependencies and run build..." "backend"
-cd $SCRIPT_DIR/backend && npm install && npm run build && npm run dev
+

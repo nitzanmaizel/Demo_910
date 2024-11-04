@@ -1,8 +1,6 @@
 #!/bin/bash
 mkdir -p frontend/src
 
-echo "Creating index css file..."
-
 # Create useSnackbar.tsx file with content
 cat <<EOL > frontend/src/theme.tsx
 import { createTheme } from '@mui/material/styles';

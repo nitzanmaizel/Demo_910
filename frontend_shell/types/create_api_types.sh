@@ -1,8 +1,6 @@
 #!/bin/bash
 mkdir -p frontend/src
 
-echo "Creating tokenManager file..."
-
 # Create useSnackbar.tsx file with content
 cat <<EOL > frontend/src/types/ApiTypes.ts
 export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;

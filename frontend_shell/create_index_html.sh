@@ -1,8 +1,6 @@
 #!/bin/bash
 mkdir -p frontend
 
-echo "Creating index html file..."
-
 # Create useSnackbar.tsx file with content
 cat <<EOL > frontend/index.html
 <!DOCTYPE html>

@@ -2,8 +2,6 @@
 # Ensure backend config directory exists
 mkdir -p frontend/src/context
 
-echo "Creating types user file..."
-
 # Create UserTypes.ts file with content
 cat <<EOL > frontend/src/context/SnackbarContext.tsx
 import React, { createContext, useState, ReactNode } from "react";

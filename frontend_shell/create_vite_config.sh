@@ -1,8 +1,6 @@
 #!/bin/bash
 mkdir -p frontend
 
-echo "Creating vite.config.ts file..."
-
 # Create vite.config.ts file with content
 cat <<EOL > frontend/vite.config.ts
 import { defineConfig, Plugin } from 'vite';

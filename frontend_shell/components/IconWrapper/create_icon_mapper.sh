@@ -1,8 +1,6 @@
 #!/bin/bash
 mkdir -p frontend/src/components/IconWrapper
 
-echo "Creating mapTypeToIcon file..."
-
 # Create useSnackbar.tsx file with content
 cat <<EOL > frontend/src/components/IconWrapper/mapTypeToIcon.tsx
 import { SvgIconProps, SxProps, Theme } from '@mui/material';

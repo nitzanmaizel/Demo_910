@@ -1,8 +1,6 @@
 #!/bin/bash
 mkdir -p frontend/src
 
-echo "Creating package.json file..."
-
 # Create useSnackbar.tsx file with content
 cat <<EOL > frontend/package.json
 {

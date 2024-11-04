@@ -1,20 +1,11 @@
-export type UserRole = 'user' | 'admin' | 'fullAdmin';
+export type UserRole = "user" | "admin";
 
 export interface IUser {
-  idNumber: string;
-  fullName: string;
-  firstName: string;
-  lastName: string;
-  company: string;
-  section: string;
-  phoneNumber?: string;
-  armyRole?: string;
-  email?: string;
+  name: string;
+  idNumber?: string;
+  email: string;
   role: UserRole;
   picture?: string;
-  accessToken?: string;
-  refreshToken?: string;
-  tokenExpiryDate?: Date;
 }
 
 export interface RIUsersType {

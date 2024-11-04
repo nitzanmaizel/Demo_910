@@ -1,8 +1,6 @@
 #!/bin/bash
 mkdir -p frontend/src/components/IconWrapper
 
-echo "Creating create_icon_wrapper_tsx file..."
-
 # Create useSnackbar.tsx file with content
 cat <<EOL > frontend/src/components/IconWrapper/IconWrapper.tsx
 import React from 'react';

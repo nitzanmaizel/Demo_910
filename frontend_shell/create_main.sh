@@ -1,8 +1,6 @@
 #!/bin/bash
 mkdir -p frontend/src
 
-echo "Creating main file..."
-
 # Create useSnackbar.tsx file with content
 cat <<EOL > frontend/src/main.tsx
 import { StrictMode } from "react";
