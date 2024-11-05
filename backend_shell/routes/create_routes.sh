@@ -7,6 +7,9 @@ colored_echo "Creating routes files..." "backend"
 colored_echo "Creating auth route file..." "backend"
 source "$SCRIPT_DIR/backend_shell/routes/create_route_auth.sh"
 
+colored_echo "Creating user route file..." "backend"
+source "$SCRIPT_DIR/backend_shell/routes/create_user_route.sh"
+
 colored_echo "Creating index route file..." "backend"
 source "$SCRIPT_DIR/backend_shell/routes/create_route_index.sh"
 

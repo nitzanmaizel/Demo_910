@@ -14,16 +14,18 @@ source "$SCRIPT_DIR/helpers.sh"
 colored_echo "Starting project setup..." "info"
 
 source "$SCRIPT_DIR/frontend_shell/create_frontend.sh"
-source "$SCRIPT_DIR/backend_shell/create_backend.sh"
+# source "$SCRIPT_DIR/backend_shell/create_backend.sh"
 
-function installAndBuild (){
+# function installAndBuild (){
   colored_echo "Frontend - Installing dependencies and run build..." "frontend"
   cd frontend && npm install 
   colored_echo "Frontend - Building project..." "frontend"
   npm run build
   colored_echo "Backend - Installing dependencies and run build..." "backend"
   cd ../backend && npm install && npm run build
-}
+# }
+
+# installAndBuild()
 
 colored_echo "Project setup completed successfully!" "success"
 

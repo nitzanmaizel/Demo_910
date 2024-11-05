@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
         <Sidebar />
         {userInfo && (
           <Box style={{ display: 'flex', alignItems: 'center' }}>
-            <Avatar src={userInfo.picture} alt={userInfo.name} />
+            <Avatar src={userInfo.picture} alt={userInfo.fullName} />
           </Box>
         )}
       </Box>
@@ -22,7 +22,7 @@ const Navbar: React.FC = () => {
         <Box
           component='img'
           sx={{ height: 105, marginLeft: 1, maxHeight: { md: 80, xs: 70 } }}
-          alt='Sayag Services'
+          alt='910'
           src='/assets/logo.png'
         />
       </Link>

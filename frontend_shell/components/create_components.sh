@@ -24,4 +24,13 @@ source "$SCRIPT_DIR/frontend_shell/components/Layout/create_page_warpper.sh"
 colored_echo "Creating sidebar file..." "frontend"
 source "$SCRIPT_DIR/frontend_shell/components/Layout/create_sidebar.sh"
 
+colored_echo "Creating UsersList file..." "frontend"
+source "$SCRIPT_DIR/frontend_shell/components/Lists/create_users_list.sh"
+
+colored_echo "Creating category card skeleton file..." "frontend"
+source "$SCRIPT_DIR/frontend_shell/components/Skeletons/create_category_skeleton.sh"
+
+colored_echo "Creating users table skeleton file..." "frontend"
+source "$SCRIPT_DIR/frontend_shell/components/Skeletons/create_user_table_skeleton.sh"
+
 colored_echo "finished creating components files..." "success"
